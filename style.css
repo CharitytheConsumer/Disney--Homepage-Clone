@@ -1,0 +1,307 @@
+/*need to add the disney- logo in top left 3/29*/
+/*use flex things to adjust like "justify-content: space-between"(space between both ends)*/
+/*"display: inline-block for adding sign up now and login*/
+* {
+    margin:0;
+    padding:0; 
+}
+body {
+    background: rgb(5, 0, 20);
+    color: #fff;
+    background-image: url('imagesdisney/background.jpg');    
+    background-repeat: no-repeat;
+    text-align: center;    
+    font-family: 'Vollkorn', serif;
+    background-size: 100%;
+}
+img {
+    max-width: 100%;
+}
+/* weeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+
+header {
+    display:flex;
+    padding:5px 20px;
+    justify-content: space-between;
+    position:fixed;
+    width:100%;
+    background: rgba(0, 4, 36, 0.753);
+}
+header a img {
+    max-width:100px;
+    display:inline-block;
+    height:60px;
+}
+header .right-sign-log a {
+    margin-right:20px;
+}
+.sign {
+    background-color: rgba(20, 20, 255, 0.836);
+    padding:1em;
+    border-radius:10%;
+}
+.sign:hover {
+    background-color: rgb(57, 57, 255);
+}
+.log {
+    background-color: black;
+    border: 1px white solid;
+    border-radius:15%;
+    padding:1em;
+} 
+.log:hover {
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(46, 46, 78);
+    width:4%;
+    margin-left:auto;
+    padding:1em;
+}
+.right-sign-log {
+    display:block;
+    border-radius: 10%;
+    padding:1em;
+        
+}
+.right-sign-log a {
+    color: white;
+    text-decoration: none;
+}
+
+/*eeeeeeeeeeeeeeeeeeeee*/
+
+.three img {
+    margin-top:10%;
+    margin-bottom:25px;
+    width: 60%;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+/* weeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+.get-all {
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:25px;
+    background-color:rgb(31, 31, 187);
+    border-radius: 6px;
+    width: 60%;
+    height: 3em;
+    color: white;
+    font-size:15px;
+}
+.get-all a{
+    color:white;
+    text-decoration: none;
+    font-weight: lighter;   
+}
+/* weeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+
+.terms a{
+    color:white;
+    font-weight:bold;
+}
+/* weeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+.signup{
+    line-height: 2.5em;
+}
+.signup a{
+    color: white;
+}
+/* weeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+.price {
+    color:rgb(146, 146, 146);
+    font-weight: lighter;
+    opacity:0.9;
+}
+/* weeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+.bunchoflogos {
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+
+.little-arrow a{
+    color:white;
+    text-decoration: none;
+    margin-top:10%;
+}
+
+/*------this is the end of the main/home page----*/
+
+.raya-pic {
+    display: flex;
+    text-align:left;    
+    justify-content:space- space-between;
+    margin-bottom: 150px;
+    
+}
+.raya-pic .left{    
+    width: 50%;   
+}
+.raya-pic .right {
+    width: 50%;
+}
+.stream h1 {
+    margin-left: 40px;
+    margin-top:40%;
+
+}
+
+.premier {
+    color:rgb(185, 185, 185);
+    font-weight: lighter;
+    text-align:left;
+    margin-left:40px;
+
+}
+.premier a{
+    color:white;
+}
+.order-early{
+    text-align:center;
+    border-radius:5px;
+    margin:20px;
+    margin-left:40px;
+    padding:10px;
+    margin-right:45%; 
+    background:linear-gradient(to right, rgb(93, 188, 233), rgb(178, 218, 221));
+
+}
+.order-early a{
+    color:black;
+    text-decoration:none;
+}
+
+/*-------------image grid---------------------*/
+.image-grid {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+/*how to delete space undeneath?*/
+    justify-content: space-around;       
+}
+/*stream with premier access under text*/
+.understream{
+    text-size-adjust: 6em;
+}
+
+/*---------------row of pictures----*/
+.home {
+    line-height: 50px;
+}
+.home p{
+    color:rgb(143, 142, 142);
+}
+.image-grid-item {    
+    flex-basis: 30%;
+    margin: 25px 0;
+}
+.image-grid-item img {
+    max-width: 100%;    
+}
+/*-------------------------*/
+
+/*-----stream now or download and go -------*/
+
+
+.download-n-go{
+    display: flex;
+    margin-top: 150px;
+}
+
+.left{
+    text-align:left;
+    margin-top:13%;
+    margin-left:40px;
+    width:45%;
+
+}
+.left h1 {
+    margin-bottom:5%;
+    line-height: 1em;
+}
+
+.right{
+    width:45%;    
+}
+
+       
+/*--------------------------devices=-------*/
+.group-device h1{
+    margin-bottom: 30px;
+}
+.avail{
+    margin-top: 150px;
+}
+/*--------------------------device pic=-------*/
+.group-device{
+    display:flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.device-pic{
+    flex-basis: 30%;
+    margin: 25px 0;
+}
+.device-pic img {
+    max-width: 100%;
+}
+.device-pic p {
+    text-align: center;
+}
+.device-pic h4 {
+    font-weight: bold;
+    margin:10px;
+}
+/*-----------bottom and final-------*/
+.last-logo {
+    width:5%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.bottom-text{
+    margin-top:10%;
+}
+.bottom-text p{
+    font-size:14px;
+    margin:15px;
+}
+.bottom-text a {
+    color: white;
+    text-decoration:none;
+    flex-wrap: wrap;
+    margin:16px;
+    font-size:12px;
+}
+ul{
+    list-style: none;
+}
+
+.footer-links{
+    list-style:none;
+}
+
+.footer-links li{
+    line-height: 80px;
+    display:inline;
+    padding:20px;
+}
+
+/*-----------------3-14 FAST.COM WEBSITE----------------------------*/
+.results-container{
+    display: flex;
+    border: 3px solid blue;
+}
+.round-block{
+    display: inline;
+}
+#make something align or whatever. here we are changing the right box content to be next to left
+.right{
+    width: 66%
+    text-align: left;
+    margin: 5vh 0 0 0;
+}
